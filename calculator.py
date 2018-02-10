@@ -1,17 +1,14 @@
-
-
-
 def StartCalculator():
 
-    num1 = float(input("Enter a number :"))
+    num1 = float(input("Enter a number (Not a decimal):"))
 
     print("")
 
-    num2 = float(input("Enter another number :"))
+    num2 = float(input("Enter another number (Not a decimal):"))
 
     print("")
 
-    operation = input("Enter '+' for addition, '-' for subtraction, '*' for multiplication, and '/' for division,")
+    operation = input("Enter '+' for addition\n '-' for subtraction \n '*' for multiplication\n and '/' for division\n")
 
 
 
